@@ -5,10 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
-        Title="This is a WPF window" Height="100" Width="400">
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBlock FontSize="18px" Text="XAML helps you to design great user interfaces."></TextBlock>
-        <Button Width="50" Margin="5,10" Content="I agree!"></Button>
+        Title="Finnd all the matching animals" Height="450" Width="400">
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="1" Grid.Column="1"  />
 
-    </StackPanel>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Column="1"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Column="2"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Column="3"  />
+
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="1" />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="1" Grid.Column="1"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="1" Grid.Column="2"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="1" Grid.Column="3"  />
+
+        
+
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="2" />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="2" Grid.Column="1"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="2" Grid.Column="2"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="2" Grid.Column="3"  />
+
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="3" />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="3" Grid.Column="1"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="3" Grid.Column="2"  />
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="NoWrap" 
+                   Grid.Row="3" Grid.Column="3"  />
+
+    </Grid>
 </Window>
